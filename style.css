@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background: linear-gradient(235.85deg, #1d0045 27.26%, #7850ad 96.03%);
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 25px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 180px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 100px;
+  
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #8650b0 27.49%, #5f00b0 83.19%);
+  margin-top: 40px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 25px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.projetos-item p {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button{
+  background: #1C1C1C;
+  color: #F6F6F6;
+  border: 2px solid #f7f7f7;
+}
